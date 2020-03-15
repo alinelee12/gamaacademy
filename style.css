@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+}
+
+main {
+    min-height: 100vh;
+}
+
+h1 {
+    margin: 0;
+}
+
+.fundo-principal {
+    background-color: gold;
+}
+
+.conteudo {
+    padding: 1rem;
+}
+
+.destaque {
+    font-size: 32px;
+    margin: 1rem 0;
+}
+
+.fundo-preto {
+    background-color: black;
+    color: white;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+}
