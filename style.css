@@ -1,22 +1,35 @@
- body {
-    padding-top: 56px;
-  }
 .navbar{
     background-color:#fff;
-    color:#DD7800;
 }
 .brand{
   max-width: 150px;
 }
-.banner{
-    background-color: #DD7800;
-    background-size: 100%;
-    color: #fff;
-    height: 100%;
-    width: 100%;
+.header-paralax {
+  background-image: url('img/banner.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  position: fixed;
+  height: 600px;
+
 }
-.img-banner{
-  opacity: .3;
-  object-fit:cover;
+
+.header-paralax h1 {
+  text-align: left;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  padding-top:250px;
+  margin-left: 100px;
+}
+
+
+main {
+  background: #f5f5f5;
+  position: relative;
+  top: 500px;
+  font-family: 'Raleway', sans-serif;
+  color: #111111;
 }
 
