@@ -1,0 +1,16 @@
+ body {
+    padding-top: 56px;
+  }
+.navbar{
+    background-color:#fff;
+    color:#DD7800;
+}
+.banner{
+    background-color: #DD7800;
+    background: url(img/banner.png);
+    background-size: 100%;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+}
+
