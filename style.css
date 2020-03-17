@@ -111,3 +111,16 @@ li {
     font-size: 42px;
     padding: 0 15px;
 }
+
+.footer {
+    background: #DD7800;
+}
+
+.footer p {
+    color: #FFFFFF;
+    margin: 10px;
+}
+
+.medias {
+    width: 50px;
+}
