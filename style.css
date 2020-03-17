@@ -209,6 +209,18 @@ li {
   margin-bottom:50px;
 */
 }
+@media (max-width: 769px) {
+  .circulo{
+   margin-left: 50px;
+
+  }
+  .titulo{
+    margin-left:-10px !important;
+    padding-left: 12px !important;
+    padding-right: 15px !important;
+   
+  }
+}
 @media (max-width: 600px) {
   .circulo{
    margin-left: 0;
