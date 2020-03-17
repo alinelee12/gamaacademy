@@ -1,34 +1,150 @@
-body {
-    margin: 0;
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+*{
+  font-family: 'Raleway', sans-serif;
+  color:#2F2C2C;
 }
+.navbar{
+    background-color:#fff;
+}
+.brand{
+  max-width: 150px;
+}
+.header-paralax {
+  background: #DD7800;
+  background-image: url('img/banner02.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+/*
+  position: fixed;
+  height: 600px;
+*/
+}
+
+.header-paralax h1 {
+  text-align: left;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 3rem;
+  padding-top:200px;
+/*
+  margin-left: 100px;
+  margin-bottom:50px;
+*/
+}
+
+.banner {
+  background: #DD7800;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 400px;
+}
+
+.banner h1 {
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  margin: 3rem;
+}
+
+.img-lua {
+  background-image: url('img/banner-footer02.png');
+}
+
+.logo-footer {
+  max-width: 200px;
+}
+
 
 main {
-    min-height: 100vh;
+  background: #f5f5f5;
+  position: relative;
+  /* top: 500px; */
+  font-family: 'Raleway', sans-serif;
+  color: #111111;
 }
 
-h1 {
-    margin: 0;
+h2 {
+ padding-top: 60px;
+ font-weight: 900;
+ font-size: 30px;
 }
 
-.fundo-principal {
-    background-color: gold;
+.texto01{
+  font-weight:lighter;
+  font-size: 24px;
 }
 
-.conteudo {
-    padding: 1rem;
+span{
+  background-color:#DD7800;
 }
 
-.destaque {
-    font-size: 32px;
-    margin: 1rem 0;
+.cta{
+  margin-top: 50px;
+  border: 3px solid #DD7800;
+  background-color: transparent;
+  color:#2F2C2C;
+  font-weight: 900;
+  font-size: 20px;
+  margin-bottom: 50px;
 }
 
-.fundo-preto {
-    background-color: black;
-    color: white;
+.primary {
+    border: 3px;
+    background-color: #DD7800;
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 20px;
+    margin-bottom: 50px;
+    padding: 10px 30px;
+/*
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+*/
 }
 
-.logo {
-    width: 80px;
-    height: 80px;
+.circulo {
+    width: 100%;
+    max-width: 380px;
+}
+
+.button-wrap {
+    white-space: pre-wrap;
+}
+
+.pad-15 {
+    padding: 15px;
+}
+
+li {
+    font-weight: bold;
+}
+
+.btn-preco {
+    margin: 0 0 50px 0;
+    text-align: left;
+    line-height: 1
+}
+
+.titulo {
+    color: #FFFFFF;
+}
+
+.btn-preco b {
+    font-size: 42px;
+    padding: 0 15px;
+}
+
+.footer {
+    background: #DD7800;
+}
+
+.footer p {
+    color: #FFFFFF;
+    margin: 10px;
+}
+
+.medias {
+    width: 50px;
 }
