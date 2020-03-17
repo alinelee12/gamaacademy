@@ -20,7 +20,6 @@
   height: 600px; */
 
 }
-
 .header-paralax h1 {
   text-align: left;
   color: #fff;
@@ -54,7 +53,6 @@
   max-width: 200px;
 }
 
-
 main {
   background: #fff;
   position: relative;
@@ -62,7 +60,6 @@ main {
   font-family: 'Raleway', sans-serif;
   color: #111111;
 }
-
 h2 {
  padding-top: 60px;
  font-weight: 900;
@@ -104,8 +101,11 @@ span{
 .circulo {
     width: 100%;
     max-width: 380px;
+    margin-left:100px;
+    margin-top:50px;
 }
 
+}
 .button-wrap {
     white-space: pre-wrap;
 }
@@ -126,6 +126,10 @@ li {
 
 .titulo {
     color: #FFFFFF;
+    background: #DD7800;
+    margin-left:-90px !important;
+    padding-left: 88px;
+    padding-right: 88px;
 }
 
 .btn-preco b {
@@ -203,4 +207,19 @@ li {
   margin-left: 100px;
   margin-bottom:50px;
 */
+}
+@media (max-width: 600px) {
+  .circulo{
+   margin-left: 0;
+   width: 80%;
+  }
+  .cta{
+    font-size:15px;
+  }
+  .titulo{
+    margin-left:0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+   
+  }
 }
