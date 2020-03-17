@@ -103,6 +103,10 @@ li {
     line-height: 1
 }
 
+.titulo {
+    color: #FFFFFF;
+}
+
 .btn-preco b {
     font-size: 42px;
     padding: 0 15px;
