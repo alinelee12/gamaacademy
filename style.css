@@ -148,3 +148,62 @@ li {
 .medias {
     width: 50px;
 }
+.pform{
+  color: #000;
+  font-family: 'Raleway', sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+
+  width: 721px;
+}
+/* header campnha */
+.header-campanha {
+  background: #DD7800;
+  background-image: url('img/banner-camp.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+/*
+  position: fixed;
+  height: 600px;
+*/
+}
+
+.header-campanha h1 {
+  text-align: left;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 3rem;
+  padding-top:200px;
+/*
+  margin-left: 100px;
+  margin-bottom:50px;
+*/
+}
+
+/* header consultoria */
+.header-consul {
+  background: #DD7800;
+  background-image: url('img/banner-cons.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+/*
+  position: fixed;
+  height: 600px;
+*/
+}
+
+.header-consul h1 {
+  text-align: left;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 3rem;
+  padding-top:200px;
+/*
+  margin-left: 100px;
+  margin-bottom:50px;
+*/
+}
