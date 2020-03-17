@@ -34,6 +34,30 @@
 */
 }
 
+.banner {
+  background: #DD7800;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 400px;
+}
+
+.banner h1 {
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  margin: 3rem;
+}
+
+.img-lua {
+  background-image: url('img/banner-footer02.png');
+}
+
+.logo-footer {
+  max-width: 200px;
+}
+
+
 main {
   background: #f5f5f5;
   position: relative;
