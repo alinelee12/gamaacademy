@@ -66,3 +66,7 @@ span{
   font-size: 20px;
   margin-bottom: 50px;
 }
+
+.button-wrap {
+    white-space: pre-wrap;
+}
