@@ -105,7 +105,6 @@ span{
     margin-top:50px;
 }
 
-}
 .button-wrap {
     white-space: pre-wrap;
 }
@@ -153,8 +152,8 @@ li {
   margin-top: 25px;
   color: #2F2C2C;
   font-family: 'Raleway', sans-serif;
-  font-size: 28px;
-  font-weight: 600;
+  font-size: 22px;
+ /* font-weight: 600; */
   width: 721px;
   text-align: center;
 }
