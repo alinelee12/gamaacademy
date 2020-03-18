@@ -30,9 +30,13 @@ var loop = setInterval(function() {
           document.getElementById("horas").innerHTML = "" 
           document.getElementById("minutos").innerHTML = ""
           document.getElementById("segundos").innerHTML = ""
-          document.getElementById("cont").innerHTML = "O EVENTO X";
-          document.getElementById("fim").innerHTML = "COMEÇOU!!";
+          document.getElementById("cont").innerHTML = "PROMOÇÃO";
+          document.getElementById("fim").innerHTML = "ENCERRADA";
       }
 
   }, 1000)
+
+document.addEventListener('mouseleave', function( ){
+    $('#popup').modal('show')      
+})
 
