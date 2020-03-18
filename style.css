@@ -10,7 +10,7 @@
 .brand{
   max-width: 150px;
 }
-.header-paralax {
+.header {
   background: #DD7800;
   background-image: url('img/banner02.png');
   background-repeat: no-repeat;
@@ -20,7 +20,7 @@
   height: 600px; */
 
 }
-.header-paralax h1 {
+.header h1 {
   text-align: left;
   color: #fff;
   font-family: 'Raleway', sans-serif;
@@ -83,6 +83,8 @@ span{
   font-weight: 900;
   font-size: 20px;
   margin-bottom: 50px;
+  pointer-events: none; 
+  cursor: default;
 }
 
 .primary {
