@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link type="text/javascript" src="index.js">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <script type="text/javascript" src="botao.js"></script>
    
     <title>Apolo - Marketing Digital</title>
   </head>
@@ -53,12 +54,11 @@
             <div class="row">
                 <div class="col-md-12 text-center">
                   <!-- INICIO BOTAO JUNO - NAO EDITAR -->
-                  <form action="https://pay.juno.com.br/checkout.html" method="post">
+                  <form action="https://pay.juno.com.br/checkout.html" method="post" target="_blank" onsubmit="botaoJuno()">
                     <input type="hidden" name="code" value="822C0B72FA153AC5" />
-                    <input type="image" src="https://boletobancario.com/boletofacil/img/payment-buttons/button-box-medium.png" name="submit" alt="Pague com a Juno!" />
+                    <button type="submit" class="btn primary">Eu quero!</button>
                     </form>
                     <!-- FINAL BOTAO JUNO -->
-                <!-- <button type="button" class="btn primary" onclick="location.href='./thankyou.html';">Eu quero!</button> -->
                 </div>
             </div>
         </section>   
