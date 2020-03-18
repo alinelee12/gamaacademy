@@ -209,7 +209,7 @@ li {
   margin-bottom:50px;
 */
 }
-@media (max-width: 769px) {
+@media (max-width: 992px) {
   .circulo{
    margin-left: 50px;
 
@@ -234,5 +234,9 @@ li {
     padding-left: 0 !important;
     padding-right: 0 !important;
    
+  }
+
+  .centraliza-mobile {
+    justify-content: center !important;
   }
 }
