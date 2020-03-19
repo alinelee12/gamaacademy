@@ -236,3 +236,10 @@ li {
     justify-content: center !important;
   }
 }
+/*Modal*/
+.modal-footer{
+  text-align: center;
+}
+.titulo-modal{
+  color:#DD7800;
+}
